@@ -29,7 +29,11 @@ Lets install java and set the java home
 java -version
 find /use/lib/jvm/java-1.8* | head -n 3
 vi /etc/profile
-export PATH=$PATH:/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el8_1.x86_64
+
+
+JAVA_HOME=/usr/lib/jvm/java-1.8.0-openjdk-1.8.0.242.b08-0.el8_1.x86_64
+PATH=$PATH:$JAVA_HOME
+export PATH
 </pre>
 <pre>
 source /etc/profile

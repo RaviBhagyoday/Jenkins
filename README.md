@@ -27,7 +27,7 @@ Lets install java and set the java home
 
 <pre>
 java -version
-find /use/lib/jvm/java-1.8* | head -n 3
+find /usr/lib/jvm/java-1.8* | head -n 3
 vi /etc/profile
 
 

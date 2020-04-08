@@ -74,5 +74,5 @@ http://your-server-public-ip:8080
 <li>Create another admin user id </li>
 <li>Change admin password <ul> <li> Admin > Configure > Password</li> </ul> </li>
 <li>Configure <b>java</b> path <ul> <li> Manage Jenkins > Global Tool Configuration > JDK</li> </ul> </li>
-<li>Perform your tasks. </li>
+<li>Install Maven & Configure it </li>
 </ul>
